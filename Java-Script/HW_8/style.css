@@ -1,0 +1,8 @@
+.users_container {
+    width: 300px;
+    height: auto;
+    padding: 40px;
+    margin: 10px;
+    background-color: rgb(41, 161, 161);
+    border-radius: 10px;
+}

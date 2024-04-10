@@ -1,0 +1,23 @@
+   0 pwd
+   1 cd /
+   2 pwd
+   3 ls
+   4 mkdir /home/animals
+   5 mkdir /home/animals/dogs
+   6 mkdir /home/animals/cats
+   7 mkdir /home/animals/fish
+   8 touch /home/animals/dogs/pluto
+   9 touch /home/animals/cats/garfield
+  10 touch /home/animals/fish/nemo
+  11 touch /tmp/adam
+  12 mkdir /home/humans
+  13 cp /tmp/adam /home/humans
+  14 touch /tmp/evA
+  15 mv /tmp/evA /opt/eve
+  16 rm /tmp/evA
+  17 mv /opt/eve /home/humans
+  18 tree /
+  19 tree /home
+  20 tree /tmp
+  21 tree /opt
+  22 history > history_Shmalii.txt

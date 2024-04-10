@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  width: 1512px;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+  padding-left: 198px;
+  padding-right: 201px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}
+
+h6 {
+  width: 190px;
+  height: 43px;
+  flex-shrink: 0;
+  color: #005fa3;
+  font-family: "Merriweather", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 138.27%;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+button {
+  width: 173px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid #000;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  background: transparent;
+}
+
+.services {
+  width: 1512px;
+  height: 1242px;
+  background-color: #ebebeb;
+  padding: 140px 0 0 201px;
+}
+
+h4 {
+  color: #bdbdbd;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 138%;
+}
+
+h5 {
+  color: #333;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 144.555%;
+  margin-top: 40px;
+  margin-bottom: 102px;
+}
+
+.service {
+  width: 1110px;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.service1, .service2, .service3, .service4, .service5, .service6 {
+  width: 350px;
+  height: 360px;
+  background-image: url('Rec.jpeg');
+}
+
+.service1:hover, .service2:hover, .service3:hover, .service4:hover, .service5:hover, .service6:hover{
+background-image: url('Rec2.jpeg');
+}
+
+h2 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 126%;
+  width: 187px;
+  height: 54px;
+  margin: 40px 0px 0 45px;
+}
+
+.btn-service {
+  border-radius: 25px;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  margin: 176px 0px 0 45px;
+}
+
+.about-us {
+  background-color: white;
+/* width: 1110px; */
+/* height: 570px; */
+padding: 140px 0 160px 185px;
+display: flex;
+}
+
+.about-us-text {
+  width: 570px;
+}
+
+.about-us-statistic {
+  width: 540px;
+  height: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+h1 {
+  width: 347px;
+  height: 117px;
+  color: #333;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 144.555%;
+  margin-top: 40px;
+}
+
+h1 span {
+  display: block;
+  color: #005FA3;
+}
+
+p {
+  width: 445px;
+  height: 245px;
+  margin-top: 60px;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 138%;
+}
+
+.statistic {
+  width: 255px;
+  height: 255px;
+  margin-top: 30px;
+  background-color: #EBEBEB;
+}
+
+
+h3 {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 30px 0 0 40px;
+}
+
+.name-h3 {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 132%;
+  width: 110px;
+  margin: 30px 0 0 40px;
+}
+
+.btn-about-us {
+  border-radius: 25px;
+  border: 2px solid #005FA3;
+  color: #005FA3;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  margin: 31px 0 0 30px;
+}
+
+.statistic:hover {
+  background-color: #005FA3;
+}
+
+.statistic:hover .btn-about-us {
+color: white;
+border-color: white;
+}
+
+.statistic:hover h3 {
+  color: white;
+  border-color: white;
+  }
